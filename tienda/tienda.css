@@ -1,0 +1,89 @@
+/*Nombre de la escuela
+Universidad Tecnologica Metropolitana
+Asignatura: Aplicaciones Web
+Nombre del Maestro Ing Ruth Betsaida Martinez 
+Nombre de la actividad:actividad 4
+Nombre del alumno: David Tuyub Varguez
+Cuatrimestre: 3
+Grupo:E
+Parcial 1
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+}
+.con-store{
+    display: flex;
+    border: black solid 1px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.container{
+    width: 245px;
+    height: 320px;
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgb(247, 232, 232);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 20px;
+}
+.foto{
+    width: 90%;
+    height: 120px;
+    border: black solid 2px;
+    margin-top: 10px;
+}
+.article{
+    font-size: 20px;
+}
+.button_buy{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgb(29, 29, 114);
+    color: whitesmoke;
+}
+@media (max-width:775px) {
+    .container{
+        width: 46%;
+        height: auto;
+        
+    }
+    .button_buy{
+        margin-bottom: 10px;
+    }
+    
+}
+@media (max-width:400px) {
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (min-width:1120px) {
+   .container{
+    width: 22%;
+    height: auto;
+    
+   }
+   .button_buy{
+    margin-bottom: 10px;
+   }  
+}

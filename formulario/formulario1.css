@@ -1,0 +1,61 @@
+/*
+Nombre de la escuela 
+Universidad Tecnologica Metropolitana
+Asignatura: Aplicaciones Web
+Nombre del Maestro:Ruth Betsaida Martinez 
+Nombre de la actividad:actividad 4
+Nombre del alumno: David Tuyub Varguez
+Cuatrimestre: 3
+Grupo: B
+Parcial: 1
+*/
+p{
+    font-size: 20px;
+}
+.contenedor{
+    text-align: center;
+    vertical-align: middle;
+}
+.nombre{
+    width: 260px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.nom{
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+}
+.uno{
+    margin-left: 80px;
+}
+.dos{
+    width: 500px;
+    height: 40px;
+}
+.tres{
+    width: 500px;
+    height: 40px;
+}
+.one{
+    margin-left: 115px;
+}
+.two{
+    margin-left: 130px;
+}
+.three{
+    margin-left: 180px;
+}
+.four{
+    margin-left: 120px;
+}
+.five{
+    margin-left: 20px;
+}
+.six{
+    margin-right:  20px;
+}
+.seven{
+    margin-right:  70px;
+}
